@@ -5,11 +5,29 @@ ion-content {
 .botao{
     background-color:#fff;
     border-radius: 10px;
-    height: 180px;
+    height: 130px;
+    width: 130px;
     text-align: justify;
-    width: 100%;
 }
 
 .imagem {
-    width: 100%;
+    padding-top: 5px;
+    height: 90%;
+    
+}
+
+.grade{
+    margin-top: 20px;
+}
+
+.left {
+    margin-left: 50px;
+}
+
+.right {
+    margin-right: -50px;
+}
+
+.linhaz{
+    margin-top: 20px;
 }
