@@ -6,7 +6,8 @@ const routes: Routes = [
   { path: 'areas', loadChildren: './areas/areas.module#AreasPageModule' },
   { path: 'begin', loadChildren: './begin/begin.module#BeginPageModule' },
   { path: 'experiments', loadChildren: './experiments/experiments.module#ExperimentsPageModule' },
-  { path: 'checklist', loadChildren: './checklist/checklist.module#ChecklistPageModule' }
+  { path: 'checklist', loadChildren: './checklist/checklist.module#ChecklistPageModule' },  { path: 'tutorial', loadChildren: './tutorial/tutorial.module#TutorialPageModule' }
+
 ];
 @NgModule({
   imports: [
