@@ -52,3 +52,17 @@ data = {"experiments": experiments, "bird_stories": bird_story}
 curio_data = json.dumps(data)
 
 print(curio_data)
+
+
+# {
+#   "rules": {
+#     ".read": true,
+#     ".write": true,
+#     "experiments": {
+#       ".indexOn": [".value", "name", "duration"]
+#     },
+#     "bird_stories": {
+#       ".indexOn": [".value", "name"]
+#     }
+#   }
+# }
