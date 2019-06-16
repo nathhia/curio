@@ -1,0 +1,40 @@
+ion-content {
+    --ion-background-color:#d3596d;
+}
+
+.botao{
+    background-color:#fff;
+    border-radius: 10px;
+    height: 130px;
+    width: 130px;
+    text-align: justify;
+}
+
+.imagem {
+    padding-top: 8px;
+    height: 68%;
+    
+}
+
+.grade{
+    margin-top: 20px;
+}
+
+.left {
+    margin-left: 50px;
+}
+
+.right {
+    margin-right: -50px;
+}
+
+.linhaz{
+    margin-top: 20px;
+}
+.temas{
+    text-align:center; 
+    font-size:120%; 
+    //padding-left: 25px; 
+    color:#383838;
+    margin-top: 6px;
+}
