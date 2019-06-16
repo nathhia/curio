@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-begin',
@@ -6,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./begin.page.scss'],
 })
 export class BeginPage implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
+  constructor(router: Router) {
+    setTimeout(function() {
+      router.navigate(['/areas'])
+    }, 1500);
   }
 
+  ngOnInit() {}
 }

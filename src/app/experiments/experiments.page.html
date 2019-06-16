@@ -10,9 +10,9 @@
       </ion-col>
       <ion-col>
         <div class="exper" expand="block" fill="outline" routerLink="/checklist" routerDirection="forward">
-          Bussóla
+          {{dataPub[0]?.name}}
           <br>
-          🕒 5 min
+          🕒 {{dataPub[0]?.duration}} min
         </div>
       </ion-col>
     </ion-row>
@@ -20,9 +20,9 @@
     <ion-row class="linha-alt">
       <ion-col>
         <div class="exper" expand="block" fill="outline">
-          Bussóla
+          {{dataPub[1]?.name}}
           <br>
-          🕒 5 min
+          🕒 {{dataPub[1]?.duration}} min
         </div>
       </ion-col>
       <ion-col>
@@ -39,9 +39,9 @@
       </ion-col>
       <ion-col>
         <div class="exper" expand="block" fill="outline">
-          Bussóla
+          {{dataPub[2]?.name}}
           <br>
-          🕒 5 min
+          🕒 {{dataPub[2]?.duration}} min
         </div>
       </ion-col>
     </ion-row>
