@@ -9,3 +9,22 @@
 @import '~@ionic/angular/css/text-alignment.css';
 @import '~@ionic/angular/css/text-transformation.css';
 @import '~@ionic/angular/css/flex-utils.css';
+
+
+.ion-color-ketchup {
+    --ion-color-base: var(--ion-color-ketchup) !important;
+    --ion-color-base-rgb: var(--ion-color-ketchup-rgb) !important;
+    --ion-color-contrast: var(--ion-color-ketchup-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-ketchup-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-ketchup-shade) !important;
+    --ion-color-tint: var(--ion-color-ketchup-tint) !important;
+}
+
+.ion-color-darkblue {
+    --ion-color-base: var(--ion-color-darkblue) !important;
+    --ion-color-base-rgb: var(--ion-color-darkblue-rgb) !important;
+    --ion-color-contrast: var(--ion-color-darkblue-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-darkblue-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-darkblue-shade) !important;
+    --ion-color-tint: var(--ion-color-darkblue-tint) !important;
+}
