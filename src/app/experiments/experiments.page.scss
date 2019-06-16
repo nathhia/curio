@@ -1,0 +1,59 @@
+ion-content{
+    --background: url(/assets/experiments-bg.png) 0 0/100% 100% no-repeat;
+
+}
+
+.exper{
+    background-color:#4373a4;
+    color: #fff;
+    border-radius: 10px;
+    height: 50px;
+    text-align: justify;
+    width: 100px;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.linha-alt{
+    height: 210px;
+}
+
+.passar{
+    height: 100px;
+    margin-left: -50px;
+    margin-top: -40px; 
+}
+
+.passarin{
+    height: 130px;
+}
+
+.box3 {
+  width: 250px;
+  margin: 50px auto;
+  border-radius: 15px;
+  background: #fff;
+  color: #d3596d;
+  padding: 20px;
+  position: relative;
+  margin-top: 0px; 
+  margin-left: -70px;
+}
+
+/* speech bubble 14 */
+
+.sb14:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-right: 15px solid #fff;
+  border-top: 15px solid #fff;
+  border-bottom: 15px solid transparent;
+  left: -16px;
+  top: 0px;
+}
+
